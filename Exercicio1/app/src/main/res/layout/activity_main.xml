@@ -66,7 +66,7 @@
         android:id="@+id/edtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="phone"
+        android:inputType="text"
         android:textSize="16sp"/>
 
     <TextView
@@ -142,7 +142,7 @@
         android:textSize="16sp" />
 
     <Switch
-        android:id="@+id/swtWhatsapp"
+        android:id="@+id/swtNotificacao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textOff="@string/nao"
@@ -156,7 +156,7 @@
         android:layout_height="wrap_content">
 
         <Button
-            android:id="@+id/btnLimpar"
+            android:id="@+id/btnExibir"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="@integer/material_motion_duration_long_1"
@@ -164,12 +164,53 @@
             android:layout_margin="@dimen/margem"/>
 
         <Button
-            android:id="@+id/btnConfirmar"
+            android:id="@+id/btnLimpar"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="@integer/material_motion_duration_long_1"
             android:text="@string/limpar"
             android:layout_margin="@dimen/margem"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lblDados"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/teal_200"
+        android:padding="@dimen/margem"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtTelefone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtNotificacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txtSexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtPreferencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 </androidx.appcompat.widget.LinearLayoutCompat>
