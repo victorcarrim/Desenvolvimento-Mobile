@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Exercicio 4</string>
+    <string name="texto">Texto</string>
+    <string name="titulo">Atividade 4 - Eventos</string>
+    <string name="botao">Enviar Texto</string>
+    <string name="tamanhoLetra">Tamanho da Letra</string>
+    <string name="mostrarTamanho">10sp</string>
+    <string name="estiloLetra">Estilo da Letra</string>
+    <string name="negrito">Negrito</string>
+    <string name="italico">Italico</string>
+    <string name="maiusculo">Maiusculo</string>
+    <string name="corTexto">Cor do Texto</string>
+    <string name="vermelho">Vermelho</string>
+    <string name="verde">Verde</string>
+    <string name="azul">Azul</string>
+</resources>
