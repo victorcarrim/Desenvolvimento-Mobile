@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Exercicio 6</string>
+    <string name="addContact">Add</string>
+    <string name="editContact">Edit</string>
+    <string name="removeContact">Delete</string>
+    <string name="help">Help</string>
+    <string name="title">Exercicío 6 - Action Bar e Internacionalização</string>
+    <string name="addContactToast">Add Contact</string>
+    <string name="editContactToast">Edit Contact</string>
+    <string name="removeContactToast">Remove Contact</string>
+</resources>
