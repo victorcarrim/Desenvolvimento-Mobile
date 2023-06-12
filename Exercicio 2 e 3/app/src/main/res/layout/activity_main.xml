@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margem">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_dark_background"
+        android:backgroundTint="#6202E9"
+        android:text="@string/nome"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_dark_background"
+        android:backgroundTint="#6201EA"
+        android:text="@string/sexo"
+        android:textSize="16sp" />
+
+
+    <RadioGroup
+        android:id="@+id/rdgSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbMaculino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/masculino"
+            android:textColor="@android:color/tertiary_text_light"/>
+
+        <RadioButton
+            android:id="@+id/rdbFeminino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feminino"
+            android:textColor="@android:color/tertiary_text_light"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_dark_background"
+        android:backgroundTint="#6200EB"
+        android:text="@string/email"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_dark_background"
+        android:backgroundTint="#6200EC"
+        android:text="@string/telefone"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edtTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margem"
+        android:background="@color/cardview_dark_background"
+        android:backgroundTint="#6200ED"
+        android:text="@string/preferencias"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/chkMusica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/musica"
+            android:textSize="15sp"
+            android:textColor="@android:color/tertiary_text_light" />
+
+        <CheckBox
+            android:id="@+id/chkCinema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cinema"
+            android:textSize="15sp"
+            android:textColor="@android:color/tertiary_text_light"/>
+        <CheckBox
+            android:id="@+id/chkEsporte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/esporte"
+            android:textSize="15sp"
+            android:textColor="@android:color/tertiary_text_light"/>
+
+        <CheckBox
+            android:id="@+id/chkGastronomia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gastronomia"
+            android:textSize="15sp"
+            android:textColor="@android:color/tertiary_text_light" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margem"
+        android:background="@color/cardview_dark_background"
+        android:backgroundTint="#6200ED"
+        android:text="@string/ativarNotificacoes"
+        android:textSize="16sp" />
+
+    <Switch
+        android:id="@+id/swtNotificacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="@string/nao"
+        android:textOn="@string/sim"
+        android:textSize="16sp"
+        android:textColor="@android:color/tertiary_text_light"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnExibir"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/material_motion_duration_long_1"
+            android:text="@string/exibir"
+            android:layout_margin="@dimen/margem"/>
+
+        <Button
+            android:id="@+id/btnLimpar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/material_motion_duration_long_1"
+            android:text="@string/limpar"
+            android:layout_margin="@dimen/margem"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lblDados"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/teal_200"
+        android:padding="@dimen/margem"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtTelefone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtNotificacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txtSexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtPreferencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Exercício 1</string>
+    <string name="nome">Nome</string>
+    <string name="email">Email</string>
+    <string name="telefone">Telefone</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="nao">Nao</string>
+    <string name="sim">Sim</string>
+    <string name="periodo">Período</string>
+    <string name="manha">Manha</string>
+    <string name="tarde">Tarde</string>
+    <string name="noite">Noite</string>
+    <string name="preferencias">Preferência</string>
+    <string name="internet">Internet</string>
+    <string name="tvacabo">Tv a Cabo</string>
+    <string name="streaming">Streaming</string>
+    <string name="limpar">Limpar</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="sexo">Sexo</string>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+    <string name="musica">Musica</string>
+    <string name="cinema">Cinema</string>
+    <string name="esporte">Esporte</string>
+    <string name="gastronomia">Gastronomia</string>
+    <string name="ativarNotificacoes">Ativar Notificações</string>
+    <string name="exibir">Exibir</string>
+</resources>
